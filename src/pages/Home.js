@@ -4,25 +4,25 @@ import bcm from './Image/bcm.jpg'
 
 import './main.css'
 
-function Mains() {
+function Home() {
   return (
     <>
-    <div className='navb'>
-        <img className='photo' src={logom} alt="log"/>
+      <div className='navb'>
+        <img className='photo' src={logom} alt="log" />
 
         <button className='lgn' variant="outlined">Login</button>
         <button className='sgn' variant="outlined">SignUp</button>
-         
-    </div>
-    
-    <div className='bcmd'>
-      <h1>Together We can Restore THE Plant</h1>
-      <img src={bcm} alt="background"/>
 
-    </div>
-    
+      </div>
+
+      <div className='bcmd'>
+        <h1>Together We can Restore THE Plant</h1>
+        <img src={bcm} alt="background" />
+
+      </div>
+
     </>
   )
 }
 
-export default Mains
+export default Home
