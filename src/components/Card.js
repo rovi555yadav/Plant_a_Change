@@ -1,16 +1,15 @@
 import React from 'react'
-import donete from './Image/donete.jpeg'
+import donate from './Image/donete.jpeg'
 
 
 function Card() {
   return (
     <>
-    
-    <div>
-        <img src={donete} alt="donte"/>
+
+      <div>
+        <img src={donate} alt="donate" />
         <h1>Donate here</h1>
-   
-    </div>
+      </div>
     </>
   )
 }

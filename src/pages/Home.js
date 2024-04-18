@@ -1,8 +1,6 @@
 import React from 'react'
-import logom from './Image/logom.jpg'
-import bcm from './Image/bcm.jpg'
-
-import './main.css'
+import logom from '../components/Image/logom.jpg'
+import bcm from '../components/Image/bcm.jpg'
 
 function Home() {
   return (
